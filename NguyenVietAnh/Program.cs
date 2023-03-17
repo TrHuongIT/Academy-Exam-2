@@ -279,7 +279,7 @@ namespace NguyenVietAnh
                 Console.WriteLine("Student not found!");
             }
         }
-
+        /*
         static void SearchByStudName()
         {
             Console.Write("Enter StudName to search for: ");
@@ -301,6 +301,31 @@ namespace NguyenVietAnh
                 Console.WriteLine("No student found with the given name!");
             }
         }
+        */
+
+        static void SearchByStudName()
+        {
+            Console.Write("Enter student name or last name: ");
+            string searchName = Console.ReadLine().Trim().ToLower();
+
+            foreach (DictionaryEntry entry in studentTable)
+            {
+                IStudent student = (IStudent)entry.Value;
+                string[] fullName = student.StudName.Trim().Split(' ');
+
+                // check if the last name matches the search string
+                if (fullName.Length > 0 && fullName[fullName.Length - 1].ToLower().Contains(searchName))
+                {
+                    student.Print();
+                }
+                // check if the full name matches the search string
+                else if (student.StudName.Trim().ToLower().Contains(searchName))
+                {
+                    student.Print();
+                }
+            }
+        }
+
 
         static void SearchByStudClass()
         {
