@@ -164,11 +164,21 @@ namespace NguyenVietAnh
 
             Console.Write("StudName: ");
             string studName = Console.ReadLine();
+            while (string.IsNullOrWhiteSpace(studName))
+            {
+                Console.WriteLine("Student name cannot be empty. Please enter student name:");
+                studName = Console.ReadLine();
+            }
 
-            Console.Write("StudGender: ");
+            Console.Write("StudGender (M for Male/F for Female): ");
             string studGender = Console.ReadLine();
+            while (studGender != "M" && studGender != "F")
+            {
+                Console.WriteLine("Invalid gender. Please enter student gender (M for Male/F for Female):");
+                studGender = Console.ReadLine();
+            }
 
-            Console.Write("StudAge: ");
+            Console.Write("StudAge: ");            
             int studAge;
             if (!int.TryParse(Console.ReadLine(), out studAge))
             {
