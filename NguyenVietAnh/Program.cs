@@ -118,7 +118,8 @@ namespace NguyenVietAnh
                 Console.WriteLine("1. Insert new student...");
                 Console.WriteLine("2. Display all the student list...");
                 Console.WriteLine("3. Calculate average mark....");
-                Console.WriteLine("4. Exit");
+                Console.WriteLine("4. Search student...");
+                Console.WriteLine("5. Exit");
                 Console.WriteLine("==================================");
                 Console.Write("Option: ");
 
@@ -141,10 +142,13 @@ namespace NguyenVietAnh
                         CalculateAverageMark();
                         break;
                     case 4:
+                        SearchStudent();
+                        break;
+                    case 5:
                         Console.WriteLine("Exiting program...");
                         return;
                     default:
-                        Console.WriteLine("Invalid choice! Please enter a number between 1 and 4.");
+                        Console.WriteLine("Invalid choice! Please enter a number between 1 and 5.");
                         break;
                 }
             }
@@ -233,6 +237,93 @@ namespace NguyenVietAnh
                 student.Print();
             }
         }
+
+        static void SearchStudent()
+        {
+            Console.WriteLine("---- Search student ----");
+            Console.WriteLine("1. Search by StudID");
+            Console.WriteLine("2. Search by StudName");
+            Console.WriteLine("3. Search by StudClass");
+            Console.Write("Please select an option: ");
+
+            int option = int.Parse(Console.ReadLine());
+
+            switch (option)
+            {
+                case 1:
+                    SearchByStudID();
+                    break;
+                case 2:
+                    SearchByStudName();
+                    break;
+                case 3:
+                    SearchByStudClass();
+                    break;
+                default:
+                    Console.WriteLine("Invalid option!");
+                    break;
+            }
+        }
+        static void SearchByStudID()
+        {
+            Console.Write("Enter StudID to search for: ");
+            int studID = int.Parse(Console.ReadLine());
+
+            if (studentTable.ContainsKey(studID))
+            {
+                IStudent student = (IStudent)studentTable[studID];
+                student.Print();
+            }
+            else
+            {
+                Console.WriteLine("Student not found!");
+            }
+        }
+
+        static void SearchByStudName()
+        {
+            Console.Write("Enter StudName to search for: ");
+            string studName = Console.ReadLine();
+
+            bool found = false;
+            foreach (DictionaryEntry entry in studentTable)
+            {
+                IStudent student = (IStudent)entry.Value;
+                if (student.StudName.ToLower() == studName.ToLower())
+                {
+                    student.Print();
+                    found = true;
+                }
+            }
+
+            if (!found)
+            {
+                Console.WriteLine("No student found with the given name!");
+            }
+        }
+
+        static void SearchByStudClass()
+        {
+            Console.Write("Enter StudClass to search for: ");
+            string studClass = Console.ReadLine();
+
+            bool found = false;
+            foreach (DictionaryEntry entry in studentTable)
+            {
+                IStudent student = (IStudent)entry.Value;
+                if (student.StudClass.ToLower() == studClass.ToLower())
+                {
+                    student.Print();
+                    found = true;
+                }
+            }
+
+            if (!found)
+            {
+                Console.WriteLine("No student found in the given class!");
+            }
+        }
+
     }
 }
 
