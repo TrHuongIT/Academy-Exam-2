@@ -1,0 +1,8 @@
+D:\Users\Smile\source\repos\NguyenVietAnh\bin\Debug\NguyenVietAnh.exe.config
+D:\Users\Smile\source\repos\NguyenVietAnh\bin\Debug\NguyenVietAnh.exe
+D:\Users\Smile\source\repos\NguyenVietAnh\bin\Debug\NguyenVietAnh.pdb
+D:\Users\Smile\source\repos\NguyenVietAnh\obj\Debug\NguyenVietAnh.csproj.AssemblyReference.cache
+D:\Users\Smile\source\repos\NguyenVietAnh\obj\Debug\NguyenVietAnh.csproj.SuggestedBindingRedirects.cache
+D:\Users\Smile\source\repos\NguyenVietAnh\obj\Debug\NguyenVietAnh.csproj.CoreCompileInputs.cache
+D:\Users\Smile\source\repos\NguyenVietAnh\obj\Debug\NguyenVietAnh.exe
+D:\Users\Smile\source\repos\NguyenVietAnh\obj\Debug\NguyenVietAnh.pdb
