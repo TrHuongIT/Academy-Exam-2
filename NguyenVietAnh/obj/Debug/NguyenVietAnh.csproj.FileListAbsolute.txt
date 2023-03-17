@@ -6,3 +6,11 @@ D:\Users\Smile\source\repos\NguyenVietAnh\obj\Debug\NguyenVietAnh.csproj.Suggest
 D:\Users\Smile\source\repos\NguyenVietAnh\obj\Debug\NguyenVietAnh.csproj.CoreCompileInputs.cache
 D:\Users\Smile\source\repos\NguyenVietAnh\obj\Debug\NguyenVietAnh.exe
 D:\Users\Smile\source\repos\NguyenVietAnh\obj\Debug\NguyenVietAnh.pdb
+D:\SmartGit\Lab_GreenAca\NguyenVietAnh\bin\Debug\NguyenVietAnh.exe.config
+D:\SmartGit\Lab_GreenAca\NguyenVietAnh\bin\Debug\NguyenVietAnh.exe
+D:\SmartGit\Lab_GreenAca\NguyenVietAnh\bin\Debug\NguyenVietAnh.pdb
+D:\SmartGit\Lab_GreenAca\NguyenVietAnh\obj\Debug\NguyenVietAnh.csproj.AssemblyReference.cache
+D:\SmartGit\Lab_GreenAca\NguyenVietAnh\obj\Debug\NguyenVietAnh.csproj.SuggestedBindingRedirects.cache
+D:\SmartGit\Lab_GreenAca\NguyenVietAnh\obj\Debug\NguyenVietAnh.csproj.CoreCompileInputs.cache
+D:\SmartGit\Lab_GreenAca\NguyenVietAnh\obj\Debug\NguyenVietAnh.exe
+D:\SmartGit\Lab_GreenAca\NguyenVietAnh\obj\Debug\NguyenVietAnh.pdb
