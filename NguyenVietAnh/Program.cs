@@ -286,6 +286,7 @@ namespace NguyenVietAnh
             string studName = Console.ReadLine();
 
             bool found = false;
+            //Creat by Viet Anh
             foreach (DictionaryEntry entry in studentTable)
             {
                 IStudent student = (IStudent)entry.Value;
@@ -313,7 +314,7 @@ namespace NguyenVietAnh
                 IStudent student = (IStudent)entry.Value;
                 string[] fullName = student.StudName.Trim().Split(' ');
 
-                // check if the last name matches the search string
+                // check if the last name 'creat by Viet Anh' matches the search string
                 if (fullName.Length > 0 && fullName[fullName.Length - 1].ToLower().Contains(searchName))
                 {
                     student.Print();
