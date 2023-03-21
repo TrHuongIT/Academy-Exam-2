@@ -1,8 +1,0 @@
-D:\SmartGit\Lab_GreenAca\Lap02\bin\Debug\Lap02.exe.config
-D:\SmartGit\Lab_GreenAca\Lap02\bin\Debug\Lap02.exe
-D:\SmartGit\Lab_GreenAca\Lap02\bin\Debug\Lap02.pdb
-D:\SmartGit\Lab_GreenAca\Lap02\obj\Debug\Lap02.csproj.AssemblyReference.cache
-D:\SmartGit\Lab_GreenAca\Lap02\obj\Debug\Lap02.csproj.SuggestedBindingRedirects.cache
-D:\SmartGit\Lab_GreenAca\Lap02\obj\Debug\Lap02.csproj.CoreCompileInputs.cache
-D:\SmartGit\Lab_GreenAca\Lap02\obj\Debug\Lap02.exe
-D:\SmartGit\Lab_GreenAca\Lap02\obj\Debug\Lap02.pdb
