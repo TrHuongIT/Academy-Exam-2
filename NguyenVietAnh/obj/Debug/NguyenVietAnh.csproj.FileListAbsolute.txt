@@ -14,3 +14,11 @@ D:\SmartGit\Lab_GreenAca\NguyenVietAnh\obj\Debug\NguyenVietAnh.csproj.SuggestedB
 D:\SmartGit\Lab_GreenAca\NguyenVietAnh\obj\Debug\NguyenVietAnh.csproj.CoreCompileInputs.cache
 D:\SmartGit\Lab_GreenAca\NguyenVietAnh\obj\Debug\NguyenVietAnh.exe
 D:\SmartGit\Lab_GreenAca\NguyenVietAnh\obj\Debug\NguyenVietAnh.pdb
+D:\SmartGit\Academy-Exam-2\NguyenVietAnh\bin\Debug\NguyenVietAnh.exe.config
+D:\SmartGit\Academy-Exam-2\NguyenVietAnh\bin\Debug\NguyenVietAnh.exe
+D:\SmartGit\Academy-Exam-2\NguyenVietAnh\bin\Debug\NguyenVietAnh.pdb
+D:\SmartGit\Academy-Exam-2\NguyenVietAnh\obj\Debug\NguyenVietAnh.csproj.AssemblyReference.cache
+D:\SmartGit\Academy-Exam-2\NguyenVietAnh\obj\Debug\NguyenVietAnh.csproj.SuggestedBindingRedirects.cache
+D:\SmartGit\Academy-Exam-2\NguyenVietAnh\obj\Debug\NguyenVietAnh.csproj.CoreCompileInputs.cache
+D:\SmartGit\Academy-Exam-2\NguyenVietAnh\obj\Debug\NguyenVietAnh.exe
+D:\SmartGit\Academy-Exam-2\NguyenVietAnh\obj\Debug\NguyenVietAnh.pdb
